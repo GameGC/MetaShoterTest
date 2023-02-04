@@ -5,9 +5,9 @@ namespace MyMenuCode
 {
     public class SettingsView : MonoBehaviour
     {
-        public Button settingsMenuButton;
-        public Button returnToMainMenuButton;
-        public Animator canvasAnimator;
+        [SerializeField] private Button settingsMenuButton;
+        [SerializeField] private Button returnToMainMenuButton;
+        [SerializeField] private Animator canvasAnimator;
 
 
         private void OnEnable()

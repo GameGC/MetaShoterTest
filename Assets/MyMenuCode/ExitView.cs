@@ -5,11 +5,11 @@ namespace MyMenuCode
 {
     public class ExitView : MonoBehaviour
     {
-        public Button showExitMenuButton;
+        [SerializeField] private Button showExitMenuButton;
 
-        public GameObject exitMenu;
-        public Button confirmExitButton;
-        public Button declineExitButton;
+        [SerializeField] private GameObject exitMenu;
+        [SerializeField] private Button confirmExitButton;
+        [SerializeField] private Button declineExitButton;
 
 
         private void OnEnable()

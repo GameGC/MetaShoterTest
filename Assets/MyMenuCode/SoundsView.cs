@@ -5,8 +5,8 @@ namespace MyMenuCode
 {
     public class SoundsView : MonoBehaviour
     {
-        public Slider soundSlider;
-        public AudioSource audioSource;
+        [SerializeField] private Slider soundSlider;
+        [SerializeField] private AudioSource audioSource;
 
         private void OnEnable()
         {

@@ -6,8 +6,8 @@ namespace MyMenuCode
 {
     public class PlayView : MonoBehaviour
     {
-        public Button playButton;
-        public int levelIndex = 1;
+        [SerializeField] private Button playButton;
+        [SerializeField] private int levelIndex = 1;
 
 
         private void OnEnable() => playButton.onClick.AddListener(DoPlay);
